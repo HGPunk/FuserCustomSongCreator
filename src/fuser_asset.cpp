@@ -681,7 +681,7 @@ void window_loop() {
 		//for (auto &&e : songPakFile.entries) {
 		//	if (auto header = std::get_if<AssetHeader>(&e.data)) {
 		//		for (auto &&n : header->names) {
-		//			if (n.name.find("dllstar") != std::string::npos) {
+		//			if (n.name.find("mainFile.shortName") != std::string::npos) {
 		//				printf("Header %s has a dllstar!\n", e.name.c_str());
 		//				break;
 		//			}
